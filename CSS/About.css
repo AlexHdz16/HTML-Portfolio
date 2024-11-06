@@ -1,0 +1,148 @@
+/* Imported Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f8f9fc;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Header css */
+header {
+    margin-bottom: 50px;
+    background: linear-gradient(145deg, #ffffff, #f1f4f8); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    padding: 40px 0; 
+    color: #2b2d42; 
+    border-radius: 10px; 
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #2b2d42; 
+}
+/* Menu css */
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2b2d42;
+    font-weight: 500;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ef233c;
+    border-bottom: 2px solid #ef233c;
+    padding-bottom: 3px;
+}
+
+section {
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #2b2d42;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px;
+    width: 250px;
+    text-align: left;
+}
+
+ul li strong {
+    font-size: 1.2em;
+    color: #2b2d42;
+    display: block;
+    margin-bottom: 8px;
+}
+
+ul li ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+ul li ul li {
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.1em;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    ul li {
+        width: 100%;
+    }
+}
