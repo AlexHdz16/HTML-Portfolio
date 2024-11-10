@@ -26,4 +26,28 @@ header h1 {
     color: #2b2d42;
 }
 
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
 
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2b2d42;
+    font-weight: 500;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ef233c;
+    border-bottom: 2px solid #ef233c;
+    padding-bottom: 3px;
+}
