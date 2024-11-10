@@ -63,6 +63,15 @@ ol li a:hover {
     color: #c209eb;
 }
 
+ol li {
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+ol li:hover {
+    transform: translateX(10px);
+    color: #ef233c;
+}
+
 /* Section styles */
 section {
     margin-top: 30px;
