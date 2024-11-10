@@ -85,7 +85,7 @@ table {
 
 td {
     padding: 10px;
-    vertical-align: top;
+    vertical-align: center;
 }
 
 /* Styling for Images */
@@ -103,4 +103,31 @@ section img {
 section img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.1em;
+    }
+
+    section h2, section h3 {
+        font-size: 1.8em;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    section img {
+        max-width: 100%;
+    }
 }
