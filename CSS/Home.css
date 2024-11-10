@@ -11,19 +11,22 @@ body {
     text-align: center;
 }
 
-
+/* Header css */
 header {
     margin-bottom: 50px;
+    background: linear-gradient(145deg, #ffffff, #f1f4f8); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    padding: 40px 0; 
+    color: #2b2d42; 
+    border-radius: 10px; 
 }
-
 
 header h1 {
     font-size: 3em;
-    color: #2b2d42;
     font-weight: 600;
     letter-spacing: 2px;
+    color: #2b2d42; 
 }
-
 
 nav ul {
     list-style-type: none;
