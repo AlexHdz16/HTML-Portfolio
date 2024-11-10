@@ -49,3 +49,41 @@ nav ul li a:hover {
     border-bottom: 2px solid #ef233c;
     padding-bottom: 3px;
 }
+
+/* Section Styles */
+section {
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+}
+
+section h2, section h3 {
+    font-size: 2em;
+    color: #2b2d42;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
