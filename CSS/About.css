@@ -166,9 +166,17 @@ ul li ul li {
     gap: 20px;
 }
 
-
-
-
-
-
+#skills-section ul li {
+    max-width: 300px;
+    min-width: 200px;
+    background: #ffffff;
+    border: 1px solid #ef233c;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box; 
+    margin: 10px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; 
+}
 
