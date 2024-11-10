@@ -101,6 +101,13 @@ section img:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Gradient border for image*/
+section img {
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, #2b2d42, #fbf9f9);
+    border-image-slice: 1;
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2em;
