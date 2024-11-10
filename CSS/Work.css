@@ -87,3 +87,18 @@ td {
     padding: 10px;
     vertical-align: top;
 }
+
+/* Styling for Images */
+section img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Images */
+section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
