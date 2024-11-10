@@ -106,6 +106,32 @@ ol li:hover {
     transform: translateX(10px);
     color: #ef233c;
 }
+
+/* contact list */
+.contact-list li {
+    font-size: 1.1em;
+    color: #2b2d42;
+    padding: 10px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.contact-list li:before {
+    content: "✉️"; 
+    position: absolute;
+    left: -30px;
+    color: #ef233c;
+    font-size: 1.3em;
+}
+
+.contact-list li:nth-child(2)::before {
+    content: "📸"; 
+}
+
+.contact-list li:nth-child(3)::before {
+    content: "💻"; 
+}
+
 /* Image styling */
 section img {
     width: 300px;
