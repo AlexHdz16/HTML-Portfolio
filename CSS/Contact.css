@@ -78,31 +78,31 @@ section p {
     margin: 0 auto 30px auto;
 }
 
-ol {
+ul {
     margin: 15px;
 }
 
-ol li {
+ul li {
     margin-bottom: 15px;
     font-size: 1.1em;
 }
 
-ol li a {
+ul li a {
     padding: 5px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
-ol li a:hover {
+ul li a:hover {
     background-color: #f1f4f8;
     color: #c209eb;
 }
 
-ol li {
+ul li {
     transition: transform 0.2s ease, color 0.3s ease;
 }
 
-ol li:hover {
+ul li:hover {
     transform: translateX(10px);
     color: #ef233c;
 }
