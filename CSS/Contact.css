@@ -76,3 +76,54 @@ section p {
     max-width: 700px;
     margin: 0 auto 30px auto;
 }
+
+ol {
+    margin: 15px;
+}
+
+ol li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Image styling */
+section img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image Hover Effect */
+section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.1em;
+    }
+
+    section h3, section h4 {
+        font-size: 1.8em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    section img {
+        width: 100%;
+    }
+}
