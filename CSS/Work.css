@@ -155,7 +155,28 @@ table:nth-of-type(2) {
 table:nth-of-type(3) {
     background: linear-gradient(to bottom right, #e5e9f0, #bec6cf);
 }
+/* border between rows */
+td, th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d0d4da; 
+}
 
+/* Hover Effect */
+table:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    td, th {
+        padding: 10px;
+    }
+}
 /* Footer Styling */
 #site-footer {
     background: #f1f4f8; 
