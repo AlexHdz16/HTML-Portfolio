@@ -132,6 +132,30 @@ section img:hover {
     }
 }
 
+/* Table Styling */
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: #2b2d42; 
+    border-radius: 8px; 
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Background for tables */
+table:nth-of-type(1) {
+    background: linear-gradient(to bottom right, #eaeff5, #d3dae3);
+}
+
+table:nth-of-type(2) {
+    background: linear-gradient(to bottom right, #f2f5fa, #cdd4dd);
+}
+
+table:nth-of-type(3) {
+    background: linear-gradient(to bottom right, #e5e9f0, #bec6cf);
+}
+
 /* Footer Styling */
 #site-footer {
     background: #f1f4f8; 
