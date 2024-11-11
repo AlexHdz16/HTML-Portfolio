@@ -52,6 +52,13 @@ nav ul li a:hover {
     padding-bottom: 3px;
 }
 
+section {
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
 
 section img {
     width: 100%;
@@ -83,7 +90,7 @@ section h2 {
 section p {
     font-size: 1.1em;
     color: #555;
-    line-height: 1.6;
+    line-height: 1.2;
 }
 
 
