@@ -108,9 +108,6 @@ img:hover {
     color: #af394d; 
 }
 
-#site-footer p {
-    margin: 5px 0;
-}
 
 @media (max-width: 768px) {
     #site-footer {
