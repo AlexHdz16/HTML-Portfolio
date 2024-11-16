@@ -62,6 +62,7 @@ p {
     line-height: 1.6;
 }
 
+/* Background color for greeting */
 .morning { color: #333; background-color: #FFFAE3; }
 .afternoon { color: #444; background-color: #FFEDD5; }
 .evening { color: #FFF; background-color: #582a2a; }
