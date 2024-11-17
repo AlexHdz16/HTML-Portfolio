@@ -64,8 +64,8 @@ p {
 
 /* Background color for greeting */
 .morning { color: #333; background-color: #FFFAE3; }
-.afternoon { color: #444; background-color: #FFEDD5; }
-.evening { color: #FFF; background-color: #582a2a; }
+.afternoon { color: #444; background-color: #a7d3fa; }
+.evening { color: #FFF; background-color: #5d2e6c; }
 
 
 @media (max-width: 768px) {
